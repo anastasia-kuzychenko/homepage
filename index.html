@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="anastasia-kuzychenko" content="Resume Donald Trump">
-    <meta name="description" content="Test task at binary studio academy. Create a resume website for Donald Trump">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Résumé</title>
-    <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
-    <style>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="anastasia-kuzychenko" content="Resume Donald Trump">
+  <meta name="description" content="Test task at binary studio academy. Create a resume website for Donald Trump">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Résumé</title>
+  <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+  <style>
     main {
       background-color: #dedacf;
-      }
+    }
+
     #flag {
       padding-top: calc((100% - 130px) / 2);
       height: 7em;
@@ -21,187 +23,275 @@
       top: 0;
       width: 100%;
     }
+
     #vidos {
       margin-top: 20px;
     }
-    </style>
-  </head>
-  <body>
-    <main>
-      <div id="flag">
-      </div>
-      <article>
-        <div class="page" style="border-color: midnightblue;">
-          <div class="stackable grid">
-            <div class="row">
-              <div class="three wide center aligned column">
-                <!-- Avatar -->
-                <div class="avatar-wrapper">
-                  <object class="avatar" data="avatar.png" width = 170 role="img" aria-label="My profile picture"></object>
-                </div>
+  </style>
+</head>
+
+<body>
+  <main>
+    <div id="flag">
+    </div>
+    <article>
+      <div class="page" style="border-color: midnightblue;">
+        <div class="stackable grid">
+          <div class="row">
+            <div class="three wide center aligned column">
+              <!-- Avatar -->
+              <div class="avatar-wrapper">
+                <object class="avatar" data="avatar.png" width=170 role="img" aria-label="My profile picture"></object>
               </div>
-              <div class="thirteen wide column">
-                <div class="stackable grid">
-                  <div class="sixteen wide column">
-                    <!-- Name, job, contacts -->
-                    <h1 class="name">Donald Tramp</h1>
-                    <div class="job">President of United States of America</div>
-                    <ul class="contacts">
-                      <li>
-                        <a href="https://www.fb.com/DonaldTrump" rel="author" class="facebook">
-                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox ="0 0 448 512"><path d ="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
-                          <span>DonaldTrump</span>    
-                        </a>
-                      </li>
-                      <li>
-                        <a href="mailto:realDonaldTrump@whitehouse.gov" rel="author" class="mail">
-                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox ="0 0 512 512">
-                            <path d ="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
-                          <span>realDonaldTrump@whitehouse.gov</span>  
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/realDonaldTrump/" rel="author" class="instagram">
-                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                            <path d="M14.52,2.469H5.482c-1.664,0-3.013,1.349-3.013,3.013v9.038c0,1.662,1.349,3.012,3.013,3.012h9.038c1.662,0,3.012-1.35,3.012-3.012V5.482C17.531,3.818,16.182,2.469,14.52,2.469 M13.012,4.729h2.26v2.259h-2.26V4.729z M10,6.988c1.664,0,3.012,1.349,3.012,3.012c0,1.664-1.348,3.013-3.012,3.013c-1.664,0-3.012-1.349-3.012-3.013C6.988,8.336,8.336,6.988,10,6.988 M16.025,14.52c0,0.831-0.676,1.506-1.506,1.506H5.482c-0.831,0-1.507-0.675-1.507-1.506V9.247h1.583C5.516,9.494,5.482,9.743,5.482,10c0,2.497,2.023,4.52,4.518,4.52c2.494,0,4.52-2.022,4.52-4.52c0-0.257-0.035-0.506-0.076-0.753h1.582V14.52z"></path>
+            </div>
+            <div class="thirteen wide column">
+              <div class="stackable grid">
+                <div class="sixteen wide column">
+                  <!-- Name, job, contacts -->
+                  <h1 class="name">Donald Tramp</h1>
+                  <div class="job">President of United States of America</div>
+                  <ul class="contacts">
+                    <li>
+                      <a href="https://www.fb.com/DonaldTrump" rel="author" class="facebook">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path
+                            d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z" />
                           </svg>
-                          <span>realDonaldTrump</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/realDonaldTrump" rel="author" class="twitter">
-                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                            <path d="M18.258,3.266c-0.693,0.405-1.46,0.698-2.277,0.857c-0.653-0.686-1.586-1.115-2.618-1.115c-1.98,0-3.586,1.581-3.586,3.53c0,0.276,0.031,0.545,0.092,0.805C6.888,7.195,4.245,5.79,2.476,3.654C2.167,4.176,1.99,4.781,1.99,5.429c0,1.224,0.633,2.305,1.596,2.938C2.999,8.349,2.445,8.19,1.961,7.925C1.96,7.94,1.96,7.954,1.96,7.97c0,1.71,1.237,3.138,2.877,3.462c-0.301,0.08-0.617,0.123-0.945,0.123c-0.23,0-0.456-0.021-0.674-0.062c0.456,1.402,1.781,2.422,3.35,2.451c-1.228,0.947-2.773,1.512-4.454,1.512c-0.291,0-0.575-0.016-0.855-0.049c1.588,1,3.473,1.586,5.498,1.586c6.598,0,10.205-5.379,10.205-10.045c0-0.153-0.003-0.305-0.01-0.456c0.7-0.499,1.308-1.12,1.789-1.827c-0.644,0.28-1.334,0.469-2.06,0.555C17.422,4.782,17.99,4.091,18.258,3.266"></path>
+                        <span>DonaldTrump</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="mailto:realDonaldTrump@whitehouse.gov" rel="author" class="mail">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                          <path
+                            d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z" />
                           </svg>
-                          </svg>
-                          <span>realDonaldTrump</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="sixteen wide mobile only column">
-                    <div class="divider"></div>
-                  </div>
-                  <div class="sixteen wide column">
-                    <!-- Intro -->
-                    <h2> Résumé </h2>
-                    <p>― I'm the most successful person ever to run for the presidency, by far. Nobody's ever been more successful than me. I'm the most successful person ever to run. Ross Perot isn't successful like me. Romney ― I have a Gucci store that's worth more than Romney. Sorry losers and haters, but my IQ is one of the highest ― and you all know it! Please don't feel so stupid or insecure, it's not your fault.</p>
-                  </div>
+                        <span>realDonaldTrump@whitehouse.gov</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/realDonaldTrump/" rel="author" class="instagram">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <path
+                            d="M14.52,2.469H5.482c-1.664,0-3.013,1.349-3.013,3.013v9.038c0,1.662,1.349,3.012,3.013,3.012h9.038c1.662,0,3.012-1.35,3.012-3.012V5.482C17.531,3.818,16.182,2.469,14.52,2.469 M13.012,4.729h2.26v2.259h-2.26V4.729z M10,6.988c1.664,0,3.012,1.349,3.012,3.012c0,1.664-1.348,3.013-3.012,3.013c-1.664,0-3.012-1.349-3.012-3.013C6.988,8.336,8.336,6.988,10,6.988 M16.025,14.52c0,0.831-0.676,1.506-1.506,1.506H5.482c-0.831,0-1.507-0.675-1.507-1.506V9.247h1.583C5.516,9.494,5.482,9.743,5.482,10c0,2.497,2.023,4.52,4.518,4.52c2.494,0,4.52-2.022,4.52-4.52c0-0.257-0.035-0.506-0.076-0.753h1.582V14.52z">
+                          </path>
+                        </svg>
+                        <span>realDonaldTrump</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/realDonaldTrump" rel="author" class="twitter">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <path
+                            d="M18.258,3.266c-0.693,0.405-1.46,0.698-2.277,0.857c-0.653-0.686-1.586-1.115-2.618-1.115c-1.98,0-3.586,1.581-3.586,3.53c0,0.276,0.031,0.545,0.092,0.805C6.888,7.195,4.245,5.79,2.476,3.654C2.167,4.176,1.99,4.781,1.99,5.429c0,1.224,0.633,2.305,1.596,2.938C2.999,8.349,2.445,8.19,1.961,7.925C1.96,7.94,1.96,7.954,1.96,7.97c0,1.71,1.237,3.138,2.877,3.462c-0.301,0.08-0.617,0.123-0.945,0.123c-0.23,0-0.456-0.021-0.674-0.062c0.456,1.402,1.781,2.422,3.35,2.451c-1.228,0.947-2.773,1.512-4.454,1.512c-0.291,0-0.575-0.016-0.855-0.049c1.588,1,3.473,1.586,5.498,1.586c6.598,0,10.205-5.379,10.205-10.045c0-0.153-0.003-0.305-0.01-0.456c0.7-0.499,1.308-1.12,1.789-1.827c-0.644,0.28-1.334,0.469-2.06,0.555C17.422,4.782,17.99,4.091,18.258,3.266">
+                          </path>
+                        </svg>
+
+                        <span>realDonaldTrump</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="sixteen wide mobile only column">
+                  <div class="divider"></div>
+                </div>
+                <div class="sixteen wide column">
+                  <!-- Intro -->
+                  <h2> Résumé </h2>
+                  <p>― I'm the most successful person ever to run for the presidency, by far. Nobody's ever been more
+                    successful than me. I'm the most successful person ever to run. Ross Perot isn't successful like me.
+                    Romney ― I have a Gucci store that's worth more than Romney. Sorry losers and haters, but my IQ is
+                    one of the highest ― and you all know it! Please don't feel so stupid or insecure, it's not your
+                    fault.</p>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="sixteen wide column">
-                <div class="fat divider"></div>
-              </div>
+          </div>
+          <div class="row">
+            <div class="sixteen wide column">
+              <div class="fat divider"></div>
             </div>
-            <div class="row">
-              <div class="ten wide column">
-                <!-- Experience -->
-                <h3>Experience</h3>
-                <h6>Now</h6>
-                <ul class="timeline">
-                  <li class="highlighted">
-                    <p><em>2017 – present</em></p>
-                    <p><strong>Became 45th president of the 
-                      <button id="sound" class="audio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M576 256c0 100.586-53.229 189.576-134.123 239.04-7.532 4.606-17.385 2.241-21.997-5.304-4.609-7.539-2.235-17.388 5.304-21.997C496.549 424.101 544 345.467 544 256c0-89.468-47.452-168.101-118.816-211.739-7.539-4.609-9.913-14.458-5.304-21.997 4.608-7.539 14.456-9.914 21.997-5.304C522.77 66.424 576 155.413 576 256zm-96 0c0-66.099-34.976-124.572-88.133-157.079-7.538-4.611-17.388-2.235-21.997 5.302-4.61 7.539-2.236 17.388 5.302 21.998C418.902 152.963 448 201.134 448 256c0 54.872-29.103 103.04-72.828 129.779-7.538 4.61-9.912 14.459-5.302 21.998 4.611 7.541 14.462 9.911 21.997 5.302C445.024 380.572 480 322.099 480 256zm-138.14-75.117c-7.538-4.615-17.388-2.239-21.998 5.297-4.612 7.537-2.241 17.387 5.297 21.998C341.966 218.462 352 236.34 352 256s-10.034 37.538-26.841 47.822c-7.538 4.611-9.909 14.461-5.297 21.998 4.611 7.538 14.463 9.909 21.998 5.297C368.247 314.972 384 286.891 384 256s-15.753-58.972-42.14-75.117zM256 88.017v335.964c0 21.436-25.942 31.999-40.971 16.971L126.059 352H24c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h102.059l88.971-88.954C230.037 56.038 256 66.551 256 88.017zm-32 19.311l-77.659 77.644A24.001 24.001 0 0 1 129.372 192H32v128h97.372a24.001 24.001 0 0 1 16.969 7.028L224 404.67V107.328z"/></svg> United States
+          </div>
+          <div class="row">
+            <div class="ten wide column">
+              <!-- Experience -->
+              <h3>Experience</h3>
+              <h6>Now</h6>
+              <ul class="timeline">
+                <li class="highlighted">
+                  <p><em>2017 – present</em></p>
+                  <p><strong>Became 45th president of the
+                      <button id="sound" class="audio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                          <path
+                            d="M576 256c0 100.586-53.229 189.576-134.123 239.04-7.532 4.606-17.385 2.241-21.997-5.304-4.609-7.539-2.235-17.388 5.304-21.997C496.549 424.101 544 345.467 544 256c0-89.468-47.452-168.101-118.816-211.739-7.539-4.609-9.913-14.458-5.304-21.997 4.608-7.539 14.456-9.914 21.997-5.304C522.77 66.424 576 155.413 576 256zm-96 0c0-66.099-34.976-124.572-88.133-157.079-7.538-4.611-17.388-2.235-21.997 5.302-4.61 7.539-2.236 17.388 5.302 21.998C418.902 152.963 448 201.134 448 256c0 54.872-29.103 103.04-72.828 129.779-7.538 4.61-9.912 14.459-5.302 21.998 4.611 7.541 14.462 9.911 21.997 5.302C445.024 380.572 480 322.099 480 256zm-138.14-75.117c-7.538-4.615-17.388-2.239-21.998 5.297-4.612 7.537-2.241 17.387 5.297 21.998C341.966 218.462 352 236.34 352 256s-10.034 37.538-26.841 47.822c-7.538 4.611-9.909 14.461-5.297 21.998 4.611 7.538 14.463 9.909 21.998 5.297C368.247 314.972 384 286.891 384 256s-15.753-58.972-42.14-75.117zM256 88.017v335.964c0 21.436-25.942 31.999-40.971 16.971L126.059 352H24c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h102.059l88.971-88.954C230.037 56.038 256 66.551 256 88.017zm-32 19.311l-77.659 77.644A24.001 24.001 0 0 1 129.372 192H32v128h97.372a24.001 24.001 0 0 1 16.969 7.028L224 404.67V107.328z" />
+                          </svg> United States
                         <audio preload="none">
                           <source src="Anthem.mp3" type="audio/mpeg">
-                          </audio>
-                        </button>.</strong> </p>
-                  </li>
-                </ul>
-                <h6>Back then</h6>
-                <ul class="timeline">
-                  <li>
-                    <p><em>2016</em></p>
-                    <p><strong>Won election race with 77 votes more than <a href="https://www.facebook.com/hillaryclinton/">Clinton</a>, yippe-kee-yay!&#127881;</strong></p>
-                  </li>
-                  <li>
-                    <p><em>2015</em></p>
-                    <p><strong>Became the most important Republican nominating for presidential election run.</strong></p>
-                  </li>
-                  <li>
-                    <p><em>2009</em></p>
-                    <p><strong>Changed my mind and became <a href="https://en.wikipedia.org/wiki/Republican_Party_(United_States)">Republican</a> again.</strong></p>
-                  </li>
-                  <li>
-                    <p><em>2005</em></p>
-                    <p><strong>Started <a href="http://trumpinitiative.com/">Trump University</a> with Michael Sexton and Jonathan Spitalny: no grades, certificates and other bureaucracy, but program offered courses in real estate, asset management entrepreneurship, and wealth creation. 98% students gave positive reviews while studying, however some of these ungrateful gringos filed lawsuits against Trump University after the course. I had to pay $25 million to settle that...</strong></p>
-                  </li>
-                  <li>
-                    <p><em>2002</em></p>
-                    <p><strong>Acquired the former <a href="https://www.google.com/maps/place/Trump+Park+Avenue+LLC/@40.7631763,-73.9698578,15z/data=!4m2!3m1!1s0x0:0xbe64db78d1fa966c?sa=X&ved=2ahUKEwidk5Tol5jpAhWC16YKHThpBNAQ_BIwE3oECBcQCA">Hotel Delmonico</a>, which was renovated and reopened in 2004 as the Trump Park Avenue. I sure do like my surname!</strong></p>
-                  </li>
-                  <li>
-                    <p><em>2001</em></p>
-                    <p><strong>Completed <a href="https://www.google.com/maps/place/%D0%91%D0%B0%D1%88%D0%BD%D1%8F+%D0%A2%D1%80%D0%B0%D0%BC%D0%BF%D0%B0/@40.7525281,-73.9676948,15z/data=!4m2!3m1!1s0x0:0xc0705dfb6c26afa8?sa=X&ved=2ahUKEwiFj9GtmJjpAhWPwMQBHdNQDKYQ_BIwHHoECBcQCA">Trump World Tower</a> and joined the <a href="https://en.wikipedia.org/wiki/Democratic_Party_(United_States)">Democratic Party</a></strong></p>
-                  </li>
-                  <li>
-                    <p><em>1999</em></p>
-                    <p><strong>Started buying golf courses. They are very cheap, I have 18 of them now in USA and abroad! Also switched to the Reform Party that year</strong></p>
-                  </li>
-                  <li>
-                    <p><em>1997</em></p>
-                    <p><strong>Began a multi-building development along the <a href="https://www.google.com/maps/place/%D0%93%D1%83%D0%B4%D0%B7%D0%BE%D0%BD/@42.3811775,-76.1317623,7z/data=!3m1!4b1!4m5!3m4!1s0x89de7307d2d687df:0x6cdb480177c4781a!8m2!3d42.3788592!4d-73.7983898">Hudson River</a>, which was named <a href="https://www.google.com/maps/search/Trump+Place/@40.7749946,-74.0012734,15.44z">Trump Place</a>. Me and the other investors sold our shares for $1.8 billion and that was then the biggest residential sale in the history of <a href="https://www.google.com/maps?q=New+York+City&rlz=1C1CHBD_ruUA841UA841&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi4ndGhm5jpAhX98KYKHabtAVoQ_AUoAnoECB0QBA">New York City</a></strong></p>
-                  </li>
-                  <li>
-                    <p><em>1996</em></p>
-                    <p><strong>Acquired the <a href="https://www.google.com/maps/place/%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D0%B8%D1%82/@40.7069547,-74.0119339,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25a1700286efb:0x5358bf9fda32dea1!8m2!3d40.7069547!4d-74.0097399">Bank of Manhattan Trust Building</a>, which was a vacant seventy-one story skyscraper on Wall Street. After an extensive renovation, the high-rise was renamed the <a href="https://www.google.com/maps?q=Trump+Building&rlz=1C1CHBD_ruUA841UA841&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjsmMDgm5jpAhVuw8QBHTlJDpAQ_AUoAnoECBIQBA">Trump Building</a></strong></p>
-                  </li>
-                  <li>
-                    <p><em>1994</em></p>
-                    <p><strong>Refurbished the Gulf and Western Building on Columbus Circle, turned it into a 44-story luxury property known as <a href="https://www.google.com/maps/place/Trump+International+Hotel+%26+Tower+New+York/@40.7690612,-73.9837708,17z/data=!3m1!4b1!4m8!3m7!1s0x89c258f66d739287:0x3e335c4bb2b6fff!5m2!4m1!1i2!8m2!3d40.7690612!4d-73.9815768">Trump International Hotel and Tower</a></strong></p>
-                  </li>
-                  <li>
-                    <p><em>1989 ― 1992</em></p>
-                    <p><strong>Ran a second hand airline called <a href="https://en.wikipedia.org/wiki/Trump_Shuttle">Trump Shuttle</a>. What a waste of money, I had to sell it, now it is <a href="https://www.aa.com/i18n/travel-info/experience/american-airlines-shuttle.jsp">American Airlines Shuttle</a>, btw</strong></p>
-                  </li>
-                  <li>
-                    <p><em>1989, 1990</em></p>
-                    <p><strong>Learned about <a href="https://www.letour.fr/en/">Tour de France</a> and decided to hold my very own <a href="https://en.wikipedia.org/wiki/Tour_DuPont">Tour de Trump</a>. Is America not great enough for that cycling competition?</strong></p>
-                  </li>
-                  <li>
-                    <p><em>1988</em></p>
-                    <p><strong>Acquired the <a href="https://en.wikipedia.org/wiki/Plaza_Hotel">Plaza Hotel</a> in Manhattan for $407 million, invested $50 million to restore the building and boosted it from three-star to four-star hotel (I called it "the Mona Lisa" and sold it for a lot of cash in 1995)</strong></p>
-                  </li>
-                  <li>
-                    <p><em>1987</em></p>
-                    <p><strong>Registered as a <a href="https://en.wikipedia.org/wiki/Republican_Party_(United_States)">Republican</a></strong></p>
-                  </li>
-                  <li>
-                    <p><em>1985</em></p>
-                    <p><strong>I bought the <a href="https://en.wikipedia.org/wiki/Mar-a-Lago">Mar-a-Lago</a> estate in <a href="https://www.booking.com/hotel/eg/palm-beach-resort.uk.html">Palm Beach</a> and turned it into a private club.You can join if you pay $200K initiation fee (and there is another annual fee for members, it is very expensive to be rich). That year I also opened a casino called <a href="https://www.google.com/maps?q=Trump+Castle&rlz=1C1CHBD_ruUA841UA841&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj856HnnZjpAhX3wsQBHZ4ADFwQ_AUoA3oECBsQBQ">Trump Castle</a>. My wife <a href="https://www.instagram.com/ivankatrump/?hl=ru">Ivana</a> became a manager, because she is another Trump!</strong></p>
-                  </li>
-                  <li>
-                    <p><em>1983</em></p>
-                    <p><strong>I purchased <a href="https://g.co/kgs/wxcsTP">New Jersey Generals</a> an American football team. I changed team's play schedule and filed an antitrust lawsuit against <a href="https://en.wikipedia.org/wiki/United_States_Football_League">United States Football League</a>, so NJG are not doing so good now, but back then they were great!</strong></p>
-                  </li>
-                  <li>
-                    <p><em>1980</em></p>
-                    <p><strong>Started developing the <a href="https://www.google.com/maps?q=Trump+Tower&rlz=1C1CHBD_ruUA841UA841&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT1e7snpjpAhWJ1aYKHe2hBJcQ_AUoAnoECBwQBA">Trump Tower</a> skyscraper in Manhattan, I payed a crew of undocumented Polish workers to demolish the historic <a href="https://g.co/kgs/Yt82XK">Bonwit Teller</a> store, including art deco features. All this to make architectural critic <a href="https://www.facebook.com/pauljgoldberger/">Paul Goldberger</a> say in 1983 that the tower's atrium is "the most pleasant interior public space to be completed in New York in some years". At the same time I also started a repair job on the <a href="https://www.google.com/maps?q=Wollman+Rink&rlz=1C1CHBD_ruUA841UA841&um=1&ie=UTF-8&sa=X&ved=2ahUKEwig2-Smn5jpAhUt4KYKHYzPAqwQ_AUoAnoECBgQBA">Wollman Rink</a> in Central Park and completed the work in three months for $1.95 million, which was $775,000 less than the initial budget!</strong></p>
-                  </li>
-                  <li>
-                    <p><em>1978</em></p>
-                    <p><strong>Purchased a 50 percent stake in the derelict <a href="https://www.google.com/maps/place/%D0%93%D1%80%D0%B0%D0%BD%D0%B4+%D0%A5%D0%B0%D1%8F%D1%82%D1%82+%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA/@40.7520617,-73.9784935,17z/data=!3m2!4b1!5s0x89c2590231b65827:0xb22ccd0fae4fa430!4m8!3m7!1s0x89c259022d712db1:0x500317cc3cc9f519!5m2!4m1!1i2!8m2!3d40.7520617!4d-73.9762995">Commodore Hotel</a> and turned it into the <a href="https://www.google.com/maps/place/%D0%93%D1%80%D0%B0%D0%BD%D0%B4+%D0%A5%D0%B0%D1%8F%D1%82%D1%82+%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA/@40.7520617,-73.9784935,17z/data=!3m2!4b1!5s0x89c2590231b65827:0xb22ccd0fae4fa430!4m8!3m7!1s0x89c259022d712db1:0x500317cc3cc9f519!5m2!4m1!1i2!8m2!3d40.7520617!4d-73.9762995">Grand Hyatt Hotel</a> in 2 years of remodeling</strong></p>
-                  </li>
-                  <li>
-                    <p><em>1971</em></p>
-                    <p><strong>Was promoted to president of the company and renamed it <a href="https://en.wikipedia.org/wiki/The_Trump_Organization">The Trump Organization</a> </strong></p>
-                  </li>
-                  <li>
-                    <p><em>1968</em></p>
-                    <p><strong>Began my career at my father's real estate development company, <a href="https://en.wikipedia.org/wiki/Elizabeth_Christ_Trump">Elizabeth Trump</a> & Son</strong></p>
-                  </li>
-                </ul>
+                        </audio>
+                      </button>.</strong> </p>
+                </li>
+              </ul>
+              <h6>Back then</h6>
+              <ul class="timeline">
+                <li>
+                  <p><em>2016</em></p>
+                  <p><strong>Won election race with 77 votes more than <a
+                        href="https://www.facebook.com/hillaryclinton/">Clinton</a>, yippe-kee-yay!&#127881;</strong>
+                  </p>
+                </li>
+                <li>
+                  <p><em>2015</em></p>
+                  <p><strong>Became the most important Republican nominating for presidential election run.</strong></p>
+                </li>
+                <li>
+                  <p><em>2009</em></p>
+                  <p><strong>Changed my mind and became <a
+                        href="https://en.wikipedia.org/wiki/Republican_Party_(United_States)">Republican</a>
+                      again.</strong></p>
+                </li>
+                <li>
+                  <p><em>2005</em></p>
+                  <p><strong>Started <a href="http://trumpinitiative.com/">Trump University</a> with Michael Sexton and
+                      Jonathan Spitalny: no grades, certificates and other bureaucracy, but program offered courses in
+                      real estate, asset management entrepreneurship, and wealth creation. 98% students gave positive
+                      reviews while studying, however some of these ungrateful gringos filed lawsuits against Trump
+                      University after the course. I had to pay $25 million to settle that...</strong></p>
+                </li>
+                <li>
+                  <p><em>2002</em></p>
+                  <p><strong>Acquired the former <a
+                        href="https://www.google.com/maps/place/Trump+Park+Avenue+LLC/@40.7631763,-73.9698578,15z/data=!4m2!3m1!1s0x0:0xbe64db78d1fa966c?sa=X&ved=2ahUKEwidk5Tol5jpAhWC16YKHThpBNAQ_BIwE3oECBcQCA">Hotel
+                        Delmonico</a>, which was renovated and reopened in 2004 as the Trump Park Avenue. I sure do like
+                      my surname!</strong></p>
+                </li>
+                <li>
+                  <p><em>2001</em></p>
+                  <p><strong>Completed <a
+                        href="https://www.google.com/maps/place/%D0%91%D0%B0%D1%88%D0%BD%D1%8F+%D0%A2%D1%80%D0%B0%D0%BC%D0%BF%D0%B0/@40.7525281,-73.9676948,15z/data=!4m2!3m1!1s0x0:0xc0705dfb6c26afa8?sa=X&ved=2ahUKEwiFj9GtmJjpAhWPwMQBHdNQDKYQ_BIwHHoECBcQCA">Trump
+                        World Tower</a> and joined the <a
+                        href="https://en.wikipedia.org/wiki/Democratic_Party_(United_States)">Democratic
+                        Party</a></strong></p>
+                </li>
+                <li>
+                  <p><em>1999</em></p>
+                  <p><strong>Started buying golf courses. They are very cheap, I have 18 of them now in USA and abroad!
+                      Also switched to the Reform Party that year</strong></p>
+                </li>
+                <li>
+                  <p><em>1997</em></p>
+                  <p><strong>Began a multi-building development along the <a
+                        href="https://www.google.com/maps/place/%D0%93%D1%83%D0%B4%D0%B7%D0%BE%D0%BD/@42.3811775,-76.1317623,7z/data=!3m1!4b1!4m5!3m4!1s0x89de7307d2d687df:0x6cdb480177c4781a!8m2!3d42.3788592!4d-73.7983898">Hudson
+                        River</a>, which was named <a
+                        href="https://www.google.com/maps/search/Trump+Place/@40.7749946,-74.0012734,15.44z">Trump
+                        Place</a>. Me and the other investors sold our shares for $1.8 billion and that was then the
+                      biggest residential sale in the history of <a
+                        href="https://www.google.com/maps?q=New+York+City&rlz=1C1CHBD_ruUA841UA841&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi4ndGhm5jpAhX98KYKHabtAVoQ_AUoAnoECB0QBA">New
+                        York City</a></strong></p>
+                </li>
+                <li>
+                  <p><em>1996</em></p>
+                  <p><strong>Acquired the <a
+                        href="https://www.google.com/maps/place/%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D0%B8%D1%82/@40.7069547,-74.0119339,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25a1700286efb:0x5358bf9fda32dea1!8m2!3d40.7069547!4d-74.0097399">Bank
+                        of Manhattan Trust Building</a>, which was a vacant seventy-one story skyscraper on Wall Street.
+                      After an extensive renovation, the high-rise was renamed the <a
+                        href="https://www.google.com/maps?q=Trump+Building&rlz=1C1CHBD_ruUA841UA841&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjsmMDgm5jpAhVuw8QBHTlJDpAQ_AUoAnoECBIQBA">Trump
+                        Building</a></strong></p>
+                </li>
+                <li>
+                  <p><em>1994</em></p>
+                  <p><strong>Refurbished the Gulf and Western Building on Columbus Circle, turned it into a 44-story
+                      luxury property known as <a
+                        href="https://www.google.com/maps/place/Trump+International+Hotel+%26+Tower+New+York/@40.7690612,-73.9837708,17z/data=!3m1!4b1!4m8!3m7!1s0x89c258f66d739287:0x3e335c4bb2b6fff!5m2!4m1!1i2!8m2!3d40.7690612!4d-73.9815768">Trump
+                        International Hotel and Tower</a></strong></p>
+                </li>
+                <li>
+                  <p><em>1989 ― 1992</em></p>
+                  <p><strong>Ran a second hand airline called <a
+                        href="https://en.wikipedia.org/wiki/Trump_Shuttle">Trump Shuttle</a>. What a waste of money, I
+                      had to sell it, now it is <a
+                        href="https://www.aa.com/i18n/travel-info/experience/american-airlines-shuttle.jsp">American
+                        Airlines Shuttle</a>, btw</strong></p>
+                </li>
+                <li>
+                  <p><em>1989, 1990</em></p>
+                  <p><strong>Learned about <a href="https://www.letour.fr/en/">Tour de France</a> and decided to hold my
+                      very own <a href="https://en.wikipedia.org/wiki/Tour_DuPont">Tour de Trump</a>. Is America not
+                      great enough for that cycling competition?</strong></p>
+                </li>
+                <li>
+                  <p><em>1988</em></p>
+                  <p><strong>Acquired the <a href="https://en.wikipedia.org/wiki/Plaza_Hotel">Plaza Hotel</a> in
+                      Manhattan for $407 million, invested $50 million to restore the building and boosted it from
+                      three-star to four-star hotel (I called it "the Mona Lisa" and sold it for a lot of cash in
+                      1995)</strong></p>
+                </li>
+                <li>
+                  <p><em>1987</em></p>
+                  <p><strong>Registered as a <a
+                        href="https://en.wikipedia.org/wiki/Republican_Party_(United_States)">Republican</a></strong>
+                  </p>
+                </li>
+                <li>
+                  <p><em>1985</em></p>
+                  <p><strong>I bought the <a href="https://en.wikipedia.org/wiki/Mar-a-Lago">Mar-a-Lago</a> estate in <a
+                        href="https://www.booking.com/hotel/eg/palm-beach-resort.uk.html">Palm Beach</a> and turned it
+                      into a private club.You can join if you pay $200K initiation fee (and there is another annual fee
+                      for members, it is very expensive to be rich). That year I also opened a casino called <a
+                        href="https://www.google.com/maps?q=Trump+Castle&rlz=1C1CHBD_ruUA841UA841&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj856HnnZjpAhX3wsQBHZ4ADFwQ_AUoA3oECBsQBQ">Trump
+                        Castle</a>. My wife <a href="https://www.instagram.com/ivankatrump/?hl=ru">Ivana</a> became a
+                      manager, because she is another Trump!</strong></p>
+                </li>
+                <li>
+                  <p><em>1983</em></p>
+                  <p><strong>I purchased <a href="https://g.co/kgs/wxcsTP">New Jersey Generals</a> an American football
+                      team. I changed team's play schedule and filed an antitrust lawsuit against <a
+                        href="https://en.wikipedia.org/wiki/United_States_Football_League">United States Football
+                        League</a>, so NJG are not doing so good now, but back then they were great!</strong></p>
+                </li>
+                <li>
+                  <p><em>1980</em></p>
+                  <p><strong>Started developing the <a
+                        href="https://www.google.com/maps?q=Trump+Tower&rlz=1C1CHBD_ruUA841UA841&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT1e7snpjpAhWJ1aYKHe2hBJcQ_AUoAnoECBwQBA">Trump
+                        Tower</a> skyscraper in Manhattan, I payed a crew of undocumented Polish workers to demolish the
+                      historic <a href="https://g.co/kgs/Yt82XK">Bonwit Teller</a> store, including art deco features.
+                      All this to make architectural critic <a href="https://www.facebook.com/pauljgoldberger/">Paul
+                        Goldberger</a> say in 1983 that the tower's atrium is "the most pleasant interior public space
+                      to be completed in New York in some years". At the same time I also started a repair job on the <a
+                        href="https://www.google.com/maps?q=Wollman+Rink&rlz=1C1CHBD_ruUA841UA841&um=1&ie=UTF-8&sa=X&ved=2ahUKEwig2-Smn5jpAhUt4KYKHYzPAqwQ_AUoAnoECBgQBA">Wollman
+                        Rink</a> in Central Park and completed the work in three months for $1.95 million, which was
+                      $775,000 less than the initial budget!</strong></p>
+                </li>
+                <li>
+                  <p><em>1978</em></p>
+                  <p><strong>Purchased a 50 percent stake in the derelict <a
+                        href="https://www.google.com/maps/place/%D0%93%D1%80%D0%B0%D0%BD%D0%B4+%D0%A5%D0%B0%D1%8F%D1%82%D1%82+%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA/@40.7520617,-73.9784935,17z/data=!3m2!4b1!5s0x89c2590231b65827:0xb22ccd0fae4fa430!4m8!3m7!1s0x89c259022d712db1:0x500317cc3cc9f519!5m2!4m1!1i2!8m2!3d40.7520617!4d-73.9762995">Commodore
+                        Hotel</a> and turned it into the <a
+                        href="https://www.google.com/maps/place/%D0%93%D1%80%D0%B0%D0%BD%D0%B4+%D0%A5%D0%B0%D1%8F%D1%82%D1%82+%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA/@40.7520617,-73.9784935,17z/data=!3m2!4b1!5s0x89c2590231b65827:0xb22ccd0fae4fa430!4m8!3m7!1s0x89c259022d712db1:0x500317cc3cc9f519!5m2!4m1!1i2!8m2!3d40.7520617!4d-73.9762995">Grand
+                        Hyatt Hotel</a> in 2 years of remodeling</strong></p>
+                </li>
+                <li>
+                  <p><em>1971</em></p>
+                  <p><strong>Was promoted to president of the company and renamed it <a
+                        href="https://en.wikipedia.org/wiki/The_Trump_Organization">The Trump Organization</a> </strong>
+                  </p>
+                </li>
+                <li>
+                  <p><em>1968</em></p>
+                  <p><strong>Began my career at my father's real estate development company, <a
+                        href="https://en.wikipedia.org/wiki/Elizabeth_Christ_Trump">Elizabeth Trump</a> & Son</strong>
+                  </p>
+                </li>
+              </ul>
+              <ul>
                 <li class="details">
                   <input type="checkbox">
-                  <label ><h3>PERSONAL LIFE</h3></label>
-                  <div >
+                  <h3>PERSONAL LIFE</h3>
+                  <div>
                     <ul class="timeline">
                       <li>
                         <p><em>2006</em></p>
-                        <p><strong>Melania gained United States citizenship and gave birth to our son, Barron</strong></p>
+                        <p><strong>Melania gained United States citizenship and gave birth to our son, Barron</strong>
+                        </p>
                       </li>
                       <li>
                         <p><em>2005</em></p>
@@ -217,11 +307,13 @@
                       </li>
                       <li>
                         <p><em>1993</em></p>
-                        <p><strong>Married Marla and had a daughter, we named her Tiffany, because I like Tiffany & Company jewellery as well</strong></p>
+                        <p><strong>Married Marla and had a daughter, we named her Tiffany, because I like Tiffany &
+                            Company jewellery as well</strong></p>
                       </li>
                       <li>
                         <p><em>1992</em></p>
-                        <p><strong>Started affair with Marla Maples, so I had to divorce. God knows I love nice women, I love them all!</strong></p>
+                        <p><strong>Started affair with Marla Maples, so I had to divorce. God knows I love nice women, I
+                            love them all!</strong></p>
                       </li>
                       <li>
                         <p><em>1984</em></p>
@@ -246,17 +338,22 @@
                     </ul>
                   </div>
                 </li>
+              </ul>
+              <ul>
                 <li class="details">
                   <input type="checkbox">
-                  <label><h3>MEDIA CAREER</h3></label>
+                  <h3>MEDIA CAREER</h3>
                   <div>
                     <ul class="timeline">
                       <li>
                         <p><em>2019</em></p>
-                        <p><strong>Was awarded Worst Actor and Worst Screen Combo at Golden Raspberry Awards for parts in "Death of a Nation" and "Fahrenheit 11/9"</strong></p>
+                        <p><strong>Was awarded Worst Actor and Worst Screen Combo at Golden Raspberry Awards for parts
+                            in "Death of a Nation" and "Fahrenheit 11/9"</strong></p>
                       </li>
+                      <li>
                         <p><em>2007</em></p>
-                        <p><strong>Received a star on the Hollywood Walk of Fame for being producer of Miss Universe pageant</strong></p>
+                        <p><strong>Received a star on the Hollywood Walk of Fame for being producer of Miss Universe
+                            pageant</strong></p>
                       </li>
                       <li>
                         <p><em>2005</em></p>
@@ -264,56 +361,74 @@
                       </li>
                       <li>
                         <p><em>2004 ― 2008</em></p>
-                        <p><strong>Ran short-form talk radio program "Trumped!" (one to two minutes on weekdays)</strong></p>
+                        <p><strong>Ran short-form talk radio program "Trumped!" (one to two minutes on
+                            weekdays)</strong></p>
                       </li>
                       <li>
                         <p><em>2003 ― 2015</em></p>
-                        <p><strong>Produced NBC reality shows "The Apprentice" and "The Celebrity Apprentice"</strong></p>
+                        <p><strong>Produced NBC reality shows "The Apprentice" and "The Celebrity Apprentice"</strong>
+                        </p>
                       </li>
                       <li>
                         <p><em>1991</em></p>
-                        <p><strong>Was awarded Worst Supporting Actor at Golden Raspberry Awards for a part in "Ghosts Can't Do It"</strong></p>
+                        <p><strong>Was awarded Worst Supporting Actor at Golden Raspberry Awards for a part in "Ghosts
+                            Can't Do It"</strong></p>
                       </li>
                     </ul>
                   </div>
+                  <iframe id="vidos" width="560" height="315" src="https://www.youtube.com/embed/qSrOXvoNLwg"
+                    allowfullscreen></iframe>
                 </li>
-                <iframe id="vidos" width="560" height="315" src="https://www.youtube.com/embed/qSrOXvoNLwg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
+
+              </ul>
+            </div>
               <div class="six wide column">
                 <!-- Languages -->
                 <section>
                   <h3>Languages</h3>
-                  <p class="tags small"><span>&#x1f1fa;&#x1f1f8; ENGLISH </span>&#x1f1f7;&#x1f1fa;<span> РУССКИЙ </span></p>
-               </section>
+                  <p class="tags small"><span>&#x1f1fa;&#x1f1f8; ENGLISH </span>&#x1f1f7;&#x1f1fa;<span> РУССКИЙ </span>
+                  </p>
+                </section>
                 <!-- Skills -->
                 <section>
                   <h3>SKILLS</h3>
-                  <p class="tags small">NEGOTIATING COUNTING 
-                    <button id="fire" class="audio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M576 256c0 100.586-53.229 189.576-134.123 239.04-7.532 4.606-17.385 2.241-21.997-5.304-4.609-7.539-2.235-17.388 5.304-21.997C496.549 424.101 544 345.467 544 256c0-89.468-47.452-168.101-118.816-211.739-7.539-4.609-9.913-14.458-5.304-21.997 4.608-7.539 14.456-9.914 21.997-5.304C522.77 66.424 576 155.413 576 256zm-96 0c0-66.099-34.976-124.572-88.133-157.079-7.538-4.611-17.388-2.235-21.997 5.302-4.61 7.539-2.236 17.388 5.302 21.998C418.902 152.963 448 201.134 448 256c0 54.872-29.103 103.04-72.828 129.779-7.538 4.61-9.912 14.459-5.302 21.998 4.611 7.541 14.462 9.911 21.997 5.302C445.024 380.572 480 322.099 480 256zm-138.14-75.117c-7.538-4.615-17.388-2.239-21.998 5.297-4.612 7.537-2.241 17.387 5.297 21.998C341.966 218.462 352 236.34 352 256s-10.034 37.538-26.841 47.822c-7.538 4.611-9.909 14.461-5.297 21.998 4.611 7.538 14.463 9.909 21.998 5.297C368.247 314.972 384 286.891 384 256s-15.753-58.972-42.14-75.117zM256 88.017v335.964c0 21.436-25.942 31.999-40.971 16.971L126.059 352H24c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h102.059l88.971-88.954C230.037 56.038 256 66.551 256 88.017zm-32 19.311l-77.659 77.644A24.001 24.001 0 0 1 129.372 192H32v128h97.372a24.001 24.001 0 0 1 16.969 7.028L224 404.67V107.328z"/></svg> FIRE
-                    <audio preload="none">
-                      <source src="Youre_fired.mp3" type="audio/mpeg">
+                  <p class="tags small">NEGOTIATING COUNTING
+                    <button id="fire" class="audio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path
+                          d="M576 256c0 100.586-53.229 189.576-134.123 239.04-7.532 4.606-17.385 2.241-21.997-5.304-4.609-7.539-2.235-17.388 5.304-21.997C496.549 424.101 544 345.467 544 256c0-89.468-47.452-168.101-118.816-211.739-7.539-4.609-9.913-14.458-5.304-21.997 4.608-7.539 14.456-9.914 21.997-5.304C522.77 66.424 576 155.413 576 256zm-96 0c0-66.099-34.976-124.572-88.133-157.079-7.538-4.611-17.388-2.235-21.997 5.302-4.61 7.539-2.236 17.388 5.302 21.998C418.902 152.963 448 201.134 448 256c0 54.872-29.103 103.04-72.828 129.779-7.538 4.61-9.912 14.459-5.302 21.998 4.611 7.541 14.462 9.911 21.997 5.302C445.024 380.572 480 322.099 480 256zm-138.14-75.117c-7.538-4.615-17.388-2.239-21.998 5.297-4.612 7.537-2.241 17.387 5.297 21.998C341.966 218.462 352 236.34 352 256s-10.034 37.538-26.841 47.822c-7.538 4.611-9.909 14.461-5.297 21.998 4.611 7.538 14.463 9.909 21.998 5.297C368.247 314.972 384 286.891 384 256s-15.753-58.972-42.14-75.117zM256 88.017v335.964c0 21.436-25.942 31.999-40.971 16.971L126.059 352H24c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h102.059l88.971-88.954C230.037 56.038 256 66.551 256 88.017zm-32 19.311l-77.659 77.644A24.001 24.001 0 0 1 129.372 192H32v128h97.372a24.001 24.001 0 0 1 16.969 7.028L224 404.67V107.328z" />
+                        </svg> FIRE
+                      <audio preload="none">
+                        <source src="Youre_fired.mp3" type="audio/mpeg">
                       </audio>
-                    </button> REMODELING WRITING ACING SINGING  REPORTING INCORPORATING SELLING ADVERTISING HOSTING COMPETING TWITTING PARENTING GAMBLING DATING SUING ORGANIZING FUNDING DEBATING ADVISING PRESBYTERIANING</p>
+                    </button> REMODELING WRITING ACING SINGING REPORTING INCORPORATING SELLING ADVERTISING HOSTING
+                    COMPETING TWITTING PARENTING GAMBLING DATING SUING ORGANIZING FUNDING DEBATING ADVISING
+                    PRESBYTERIANING</p>
                 </section>
                 <!-- Character -->
                 <section>
                   <h3>Character</h3>
-                  <p class="tags small">ADJUSTED CALM AMBITIOUS COMPETITIVE SOCIABLE DIRECT HOSTILE CARELESS IGNORANT INQUISITIVE BOLD CONFIDENT MISCHIEVOUS CHARMING INTERESTING DARING COLORFUL LAZY SELF-PROMOTING</p>
+                  <p class="tags small">ADJUSTED CALM AMBITIOUS COMPETITIVE SOCIABLE DIRECT HOSTILE CARELESS IGNORANT
+                    INQUISITIVE BOLD CONFIDENT MISCHIEVOUS CHARMING INTERESTING DARING COLORFUL LAZY SELF-PROMOTING</p>
                 </section>
                 <!-- Likes -->
                 <section>
                   <h3>Likes&#x1f603;</h3>
-                  <p class="tags small"><a href="https://www.youtube.com/watch?v=u_aLESDql1U">BILLIONS </a>FILET-O-FISH BIG MAC <a href="https://www.youtube.com/watch?v=RDrfE9I8_hs">CHINA </a>QUARTER POUNDER DIET COKE TARIFFS BIBLE ARTOF DEAL PATRIOTS BEAUTIFUL MODELS GOLD REAL ESTATE WAR PROTESTERS CONSTRUCTION RUSSIANS BANKS SPORTS WOMEN MEXICO RED HAT KOREANS GOLF EVERYBODY</p>
+                  <p class="tags small"><a href="https://www.youtube.com/watch?v=u_aLESDql1U">BILLIONS </a>FILET-O-FISH
+                    BIG MAC <a href="https://www.youtube.com/watch?v=RDrfE9I8_hs">CHINA </a>QUARTER POUNDER DIET COKE
+                    TARIFFS BIBLE ARTOF DEAL PATRIOTS BEAUTIFUL MODELS GOLD REAL ESTATE WAR PROTESTERS CONSTRUCTION
+                    RUSSIANS BANKS SPORTS WOMEN MEXICO RED HAT KOREANS GOLF EVERYBODY</p>
                 </section>
                 <!-- Dislikes -->
                 <section>
                   <h3>Dislikes&#x1f61e;</h3>
-                  <p class="tags small">DOGS MEDIA CNN GERMANS MEXICANS IMMIGRANTS SHITHOLE COUNTRIES UNATTRACTIVE WOMEN BLACKS SUSHI HOT-DOGS ALCOHOL FRUIT CHRISTMAS PARTIES LIBERALS</p>
+                  <p class="tags small">DOGS MEDIA CNN GERMANS MEXICANS IMMIGRANTS SHITHOLE COUNTRIES UNATTRACTIVE WOMEN
+                    BLACKS SUSHI HOT-DOGS ALCOHOL FRUIT CHRISTMAS PARTIES LIBERALS</p>
                 </section>
                 <!-- Wants -->
                 <section>
                   <h3>Wants&#x1f97a;</h3>
-                  <p class="tags small bulleted">BE HEALTHY GROW A TREE BUILD TRUMP AIRPORT HAVE A TASTE DO A HARLEM SHAKE IN CONGRESS TO GOLF MORE OFTEN WIN ALL THE COURT SUITS</p>
+                  <p class="tags small bulleted">BE HEALTHY GROW A TREE BUILD TRUMP AIRPORT HAVE A TASTE DO A HARLEM
+                    SHAKE IN CONGRESS TO GOLF MORE OFTEN WIN ALL THE COURT SUITS</p>
                 </section>
                 <!-- Education -->
                 <section>
@@ -321,126 +436,150 @@
                   <ul class="timeline">
                     <li class="highlighted">
                       <p><em>2011</em></p>
-                      <p><strong>&#10004; Asked friends who are prominent and wealthy alumni of the <a href="https://www.nyma.org/">New York Military Academy</a> to secure my academic records so they could not be seen by anyone, never!</strong></p>
+                      <p><strong>&#10004; Asked friends who are prominent and wealthy alumni of the <a
+                            href="https://www.nyma.org/">New York Military Academy</a> to secure my academic records so
+                          they could not be seen by anyone, never!</strong></p>
                     </li>
                     <li class="highlighted">
                       <p><em>1966</em></p>
-                      <p><strong>&#10004; Transferred to the <a href="https://www.wharton.upenn.edu/">Wharton School of the University of Pennsylvania</a> and graduated in May 1968 with a B.S. in economics</strong></p>
+                      <p><strong>&#10004; Transferred to the <a href="https://www.wharton.upenn.edu/">Wharton School of
+                            the University of Pennsylvania</a> and graduated in May 1968 with a B.S. in
+                          economics</strong></p>
                     </li>
                     <li class="highlighted">
                       <p><em>1964</em></p>
-                      <p><strong>&#10004; Started studying in <a href="https://www.fordham.edu/">Fordham University</a></strong></p>
+                      <p><strong>&#10004; Started studying in <a href="https://www.fordham.edu/">Fordham
+                            University</a></strong></p>
                     </li>
                     <li class="highlighted">
                       <p><em>1959</em></p>
-                      <p><strong>&#10004; Enrolled in the <a href="https://www.nyma.org/">New York Military Academy</a>, a private boarding school, after my parents discovered I made frequent trips into Manhattan without their permission</strong></p>
+                      <p><strong>&#10004; Enrolled in the <a href="https://www.nyma.org/">New York Military Academy</a>,
+                          a private boarding school, after my parents discovered I made frequent trips into Manhattan
+                          without their permission</strong></p>
                     </li>
                   </ul>
                 </section>
                 <!-- Articles -->
                 <section>
-                <li class="details">
-                  <input type="checkbox">
-                  <label><h3>PUBLICATIONS &#10002;</h3></label>
-                  <div>
-                    <ul class="timeline">
-                      <li>
-                        <p><em>2015</em></p>
-                        <p><strong>&#9898;"Crippled America: How to Make America Great Again"</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2011</em></p>
-                        <p><strong>&#9898;"Time to Get Tough: Making America #1 Again" in coauthorship with Wynton Hall, Peter Schweizer and Meredith McIver</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2011</em></p>
-                        <p><strong>&#9898;"Time to Get Tough: Making America #1 Again" in coauthorship with Wynton Hall, Peter Schweizer and Meredith McIver</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2011</em></p>
-                        <p><strong>&#9898;"Trump Tower" in coauthorship with Jeffrey Robinson</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2009</em></p>
-                        <p><strong>&#9898;"Think Like a Champion: An Informal Education in Business and Life" in coauthorship with Meredith McIver</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2008</em></p>
-                        <p><strong>&#9898;"Never Give Up: How I Turned My Biggest Challenges into Success" in coauthorship with Meredith McIver</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2007</em></p>
-                        <p><strong>&#9898;"Think Big and Kick Ass" in coauthorship with Bill Zanker</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2006</em></p>
-                        <p><strong>&#9898;"Why We Want You to Be Rich" in coauthorship with Meredith McIver and Robert Kiyosaki</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2006</em></p>
-                        <p><strong>&#9898;"How to Build a Fortune: Your Plan for Success From the World's Most Famous Businessman"</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2006</em></p>
-                        <p><strong>&#9898;"The Best Real Estate Advice I Ever Received: 100 Top Experts Share Their Strategies"</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2006</em></p>
-                        <p><strong>&#9898;"Why We Want You to Be Rich" in coauthorship with Meredith McIver and Robert Kiyosaki</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2006</em></p>
-                        <p><strong>&#9898;"Trump 101: The Way to Success" in coauthorship with Meredith McIver</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2005</em></p>
-                        <p><strong>&#9898;"The Best Golf Advice I Ever Received"</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2004</em></p>
-                        <p><strong>&#9898;"Trump: How to Get Rich" in coauthorship with Meredith McIver</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2004</em></p>
-                        <p><strong>&#9898;"The Way to the Top: The Best Business Advice I Ever Received"</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2004</em></p>
-                        <p><strong>&#9898;"Think Like a Billionaire: Everything You Need to Know About Success, Real Estate, and Life" in coauthorship with Meredith McIver</strong></p>
-                      </li>
-                      <li>
-                        <p><em>2000</em></p>
-                        <p><strong>&#9898;"Trump: The America We Deserve" in coauthorship with Dave Shiflett</strong></p>
-                      </li>
-                      <li>
-                        <p><em>1997</em></p>
-                        <p><strong>&#9898;"Trump: The Art of the Comeback" in coauthorship with Kate Bohner</strong></p>
-                      </li>
-                      <li>
-                        <p><em>1990</em></p>
-                        <p><strong>&#9898;"Trump: Surviving at the Top" in coauthorship with Charles Leerhsen</strong></p>
-                      </li>
-                      <li>
-                        <p><em>1987</em></p>
-                        <p><strong>&#9898;"Trump: The Art of the Deal" in coauthorship with Tony Shwartz</strong></p>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
+                  <ul>
+                    <li class="details">
+                      <input type="checkbox">
+                      <h3>PUBLICATIONS &#10002;</h3>
+                      <div>
+                        <ul class="timeline">
+                          <li>
+                            <p><em>2015</em></p>
+                            <p><strong>&#9898;"Crippled America: How to Make America Great Again"</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2011</em></p>
+                            <p><strong>&#9898;"Time to Get Tough: Making America #1 Again" in coauthorship with Wynton
+                                Hall, Peter Schweizer and Meredith McIver</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2011</em></p>
+                            <p><strong>&#9898;"Time to Get Tough: Making America #1 Again" in coauthorship with Wynton
+                                Hall, Peter Schweizer and Meredith McIver</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2011</em></p>
+                            <p><strong>&#9898;"Trump Tower" in coauthorship with Jeffrey Robinson</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2009</em></p>
+                            <p><strong>&#9898;"Think Like a Champion: An Informal Education in Business and Life" in
+                                coauthorship with Meredith McIver</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2008</em></p>
+                            <p><strong>&#9898;"Never Give Up: How I Turned My Biggest Challenges into Success" in
+                                coauthorship with Meredith McIver</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2007</em></p>
+                            <p><strong>&#9898;"Think Big and Kick Ass" in coauthorship with Bill Zanker</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2006</em></p>
+                            <p><strong>&#9898;"Why We Want You to Be Rich" in coauthorship with Meredith McIver and
+                                Robert Kiyosaki</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2006</em></p>
+                            <p><strong>&#9898;"How to Build a Fortune: Your Plan for Success From the World's Most
+                                Famous Businessman"</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2006</em></p>
+                            <p><strong>&#9898;"The Best Real Estate Advice I Ever Received: 100 Top Experts Share Their
+                                Strategies"</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2006</em></p>
+                            <p><strong>&#9898;"Why We Want You to Be Rich" in coauthorship with Meredith McIver and
+                                Robert Kiyosaki</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2006</em></p>
+                            <p><strong>&#9898;"Trump 101: The Way to Success" in coauthorship with Meredith
+                                McIver</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2005</em></p>
+                            <p><strong>&#9898;"The Best Golf Advice I Ever Received"</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2004</em></p>
+                            <p><strong>&#9898;"Trump: How to Get Rich" in coauthorship with Meredith McIver</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2004</em></p>
+                            <p><strong>&#9898;"The Way to the Top: The Best Business Advice I Ever Received"</strong>
+                            </p>
+                          </li>
+                          <li>
+                            <p><em>2004</em></p>
+                            <p><strong>&#9898;"Think Like a Billionaire: Everything You Need to Know About Success, Real
+                                Estate, and Life" in coauthorship with Meredith McIver</strong></p>
+                          </li>
+                          <li>
+                            <p><em>2000</em></p>
+                            <p><strong>&#9898;"Trump: The America We Deserve" in coauthorship with Dave
+                                Shiflett</strong></p>
+                          </li>
+                          <li>
+                            <p><em>1997</em></p>
+                            <p><strong>&#9898;"Trump: The Art of the Comeback" in coauthorship with Kate Bohner</strong>
+                            </p>
+                          </li>
+                          <li>
+                            <p><em>1990</em></p>
+                            <p><strong>&#9898;"Trump: Surviving at the Top" in coauthorship with Charles
+                                Leerhsen</strong></p>
+                          </li>
+                          <li>
+                            <p><em>1987</em></p>
+                            <p><strong>&#9898;"Trump: The Art of the Deal" in coauthorship with Tony Shwartz</strong>
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
                 </section>
               </div>
-            </div>
           </div>
         </div>
-      </article>
-    </main>
+      </div>
+    </article>
     <script>
-      document.getElementById("sound").addEventListener("click", function() {
-			this.childNodes[2].play();
-		});
-    document.getElementById("fire").addEventListener("click", function() {
-			this.childNodes[2].play();
-		});
-    </script>
-  </body>
+    document.getElementById("sound").addEventListener("click", function () {
+      this.childNodes[2].play();
+    });
+    document.getElementById("fire").addEventListener("click", function () {
+      this.childNodes[2].play();
+    });
+  </script>
+  </main>
+</body>
 </html>
